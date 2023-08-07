@@ -1,0 +1,33 @@
+#hero{
+    background-color: #F6BEB6;
+    color: #9B5456;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+
+.hero-img{
+    height: 100vh;
+    object-fit: cover;
+    opacity: 0.2;
+    
+}
+
+.overlay-text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.btn{
+    background-color: white;
+    color: #9B5456;
+}
+
+.btn:hover{
+    background-color: #ffefefb1;
+}
+
+h1{
+    font-family: 'Ibarra Real Nova', serif;
+}
