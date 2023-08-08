@@ -1,15 +1,13 @@
+/* Header */
 #hero{
     background-color: #F6BEB6;
     color: #9B5456;
-    font-family: Helvetica, Arial, sans-serif;
 }
-
 
 .hero-img{
     height: 100vh;
     object-fit: cover;
     opacity: 0.2;
-    
 }
 
 .overlay-text{
@@ -22,16 +20,25 @@
 .btn{
     background-color: white;
     color: #9B5456;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 0.8em;
 }
 
 .btn:hover{
     background-color: #ffefefb1;
 }
 
-h1{
+h1, h6{
     font-family: 'Ibarra Real Nova', serif;
 }
 
+h1{
+    font-weight: 600 !important;
+}
+
+.intro-txt{
+    font-family: 'Lexend Zetta', sans-serif;
+}
 
 @media screen and (min-width: 1400px){
     p{
