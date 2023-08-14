@@ -1,4 +1,13 @@
-/* Header */
+main{
+    background-color: #FAF3F3;
+}
+
+section h1{
+    color: #9B5456;;
+}
+
+
+/* Hero */
 #hero{
     background-color: #F6BEB6;
     color: #9B5456;
@@ -7,7 +16,7 @@
 .hero-img{
     height: 100vh;
     object-fit: cover;
-    opacity: 0.2;
+    opacity: 0.25;
 }
 
 .overlay-text{
@@ -46,3 +55,13 @@ h1{
     }
     
 }
+
+
+/* Navigation */
+.navbar-toggler:focus{
+    box-shadow: none;
+}
+
+
+
+/* Services */
