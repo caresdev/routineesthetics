@@ -1,15 +1,24 @@
-main{
-    background-color: #FAF3F3;
+body{
+    background-color: #FFEBE5;
 }
 
-section h1{
-    color: #9B5456;;
+section{
+    margin-top: 3em;
 }
+
+section p{
+    color: #4c292a;
+}
+
+section h2, section h4, section h5, #services p{
+    color: #9B5456;
+}
+
 
 
 /* Hero */
 #hero{
-    background-color: #F6BEB6;
+    background-color: #fdd0c9;
     color: #9B5456;
 }
 
@@ -26,16 +35,13 @@ section h1{
     transform: translate(-50%, -50%);
 }
 
-.btn{
-    background-color: white;
-    color: #9B5456;
+.btn, .btn:hover{
+    background-color: #129681;
+    color: white;
     font-family: 'DM Sans', sans-serif;
     font-size: 0.8em;
 }
 
-.btn:hover{
-    background-color: #ffefefb1;
-}
 
 h1, h6{
     font-family: 'Ibarra Real Nova', serif;
@@ -64,4 +70,31 @@ h1{
 
 
 
+
+
 /* Services */
+.service-item img{
+    border-radius: 2%;
+    max-width: 80%;
+    object-fit: cover;
+}
+
+.service-item {
+    text-align: center;
+    padding: 20px;
+}
+
+
+
+/* 
+@media (max-width: 767px) {
+    .service-item img {
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .service-item img {
+    }
+}
+*/
+
