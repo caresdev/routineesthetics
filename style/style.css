@@ -4,6 +4,7 @@ body{
 
 section{
     margin-top: 3em;
+    margin-bottom: 3em;
 }
 
 section p{
@@ -14,16 +15,21 @@ section h2, section h4, section h5, #services p{
     color: #9B5456;
 }
 
+section h2{
+    font-family: 'Poppins', sans-serif;
+}
+
 
 
 /* Hero */
 #hero{
     background-color: #fdd0c9;
     color: #9B5456;
+    height: 120vh;
 }
 
 .hero-img{
-    height: 100vh;
+    height: inherit;
     object-fit: cover;
     opacity: 0.25;
 }
@@ -64,12 +70,27 @@ h1{
 
 
 /* Navigation */
+.navbar{
+    background-color: #FFFF;
+    opacity: 0.75;
+}
+
+.nav-link{
+    color: #129681;
+}
+
+.nav-link:hover{
+    background-color: #FFEBE5;
+    color: #129681;
+}
+
 .navbar-toggler:focus{
     box-shadow: none;
 }
 
-
-
+.navbar-toggler-icon{
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%2833, 37, 41, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='1.2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
 
 
 /* Services */
@@ -77,11 +98,26 @@ h1{
     border-radius: 2%;
     max-width: 80%;
     object-fit: cover;
+    margin: 1em;
 }
 
 .service-item {
     text-align: center;
-    padding: 20px;
+    padding: 1em;
+}
+
+@media (min-width: 375px) and (max-width:768px) {
+    .service-item {
+        padding: 2em;
+    }
+}
+
+
+/* About */
+#about img{
+    border-radius: 100%;
+    max-width: 80%;
+    object-fit: cover;
 }
 
 
