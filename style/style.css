@@ -4,14 +4,14 @@ body{
 
 section{
     margin-top: 3em;
-    margin-bottom: 3em;
+    margin-bottom: 10em;
 }
 
 section p{
     color: #4c292a;
 }
 
-section h2, section h4, section h5, #services p{
+section h2, section h4, section h5, #services p, #shopping p{
     color: #9B5456;
 }
 
@@ -94,20 +94,20 @@ h1{
 
 
 /* Services */
-.service-item img{
+.service-item img, .product-item img {
     border-radius: 2%;
     max-width: 80%;
     object-fit: cover;
     margin: 1em;
 }
 
-.service-item {
+.service-item, .product-item {
     text-align: center;
     padding: 1em;
 }
 
 @media (min-width: 375px) and (max-width:768px) {
-    .service-item {
+    .service-item, .product-item {
         padding: 2em;
     }
 }
@@ -119,6 +119,7 @@ h1{
     max-width: 80%;
     object-fit: cover;
 }
+
 
 
 
