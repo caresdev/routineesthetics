@@ -4,12 +4,12 @@ body{
 }
 
 
-@media screen and (min-width: 1024px){
+/*@media screen and (min-width: 1024px){
     p{
         font-size: 1.3em;
     }
     
-}
+}*/
     
 section{
     margin-top: 3em;
@@ -20,20 +20,12 @@ section p{
     color: #4c292a;
 }
 
-section h2, section h4, section h5, #services p, #shopping p{
+section h2, section h4, section h5, section h6, .service-details, #services h1{
     color: #9B5456;
 }
 
-.services-intro p{
-    color: #4c292a !important;
-}
 
-.services-intro{
-    margin-top: 3em;
-    margin-bottom: 6em;
-}
-
-section h2{
+section h2, section h5, section h6, #services h1{
     font-family: 'Poppins', sans-serif;
 }
 
@@ -106,20 +98,36 @@ h1{
 
 
 /* Services */
+.services-intro p{
+    color: #4c292a !important;
+}
+
+.services-intro{
+    margin-top: 5em;
+    margin-bottom: 6em;
+}
+
 .service-item img, .product-item img{
     max-width: 80%;
     object-fit: cover;
-    margin: 1em;
+    margin: 1em;  
+}
+
+.card-img-top{
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
 }
 
 .service-item {
     position: relative;
 }
 
-
 .service-item, .product-item {
-    text-align: center;
     padding: 1em;
+}
+
+.card{
+    background-color: #FFEBE5;
 }
 
 
@@ -131,10 +139,32 @@ h1{
 
 
 /* About */
-#about img{
+.profile-img{
     object-fit: cover;
 }
 
+
+@media (max-width: 475px) {
+    .profile-img {
+        max-width: 80%;
+    }
+
+    #about{
+        text-align: center;
+    }
+
+}
+
+
+
+
+/* Shopping */
+.observation::before {
+    content: "*";
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 2px;
+}
 
 
 
