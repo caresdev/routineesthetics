@@ -172,8 +172,14 @@ h1{
 /* Testimonials */
 #testimonials{
     width: 100%;
-    height: 900px;
+    height: 1600px;
     background-color: #fbc2c2;
+}
+
+@media (min-width: 768px){
+    #testimonials{
+        height: 900px;
+    }
 }
 
 
