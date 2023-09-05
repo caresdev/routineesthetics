@@ -176,6 +176,15 @@ h1{
     background-color: #fbc2c2;
 }
 
+.test{
+    width: 70px;
+    height: 70px;
+}
+
+.card-footer{
+    background-color: inherit;
+}
+
 @media (min-width: 768px){
     #testimonials{
         height: 900px;
