@@ -219,8 +219,15 @@ footer h5{
     font-family: 'DM Sans', sans-serif;
 }
 
-.map{
-    object-fit: fill;
+.card-body iframe{
+    width: 100%;
+    object-fit: cover;
+    margin-top: 0.7em;
+}
+
+.material-symbols-outlined{
+    vertical-align: middle;
+    margin-right: 0.3em;
 }
 
 
