@@ -20,7 +20,7 @@ section p{
     color: #4c292a;
 }
 
-section h2, section h4, section h5, section h6, .service-details, #services h1{
+section h2, footer h5, section h4, section h5, section h6, .service-details, #services h1, footer h2{
     color: #9B5456;
 }
 
@@ -59,7 +59,7 @@ section h2, section h5, section h6, #services h1{
 }
 
 
-h1, h5{
+h1, #hero h5, footer h2{
     font-family: 'Ibarra Real Nova', serif;
 }
 
@@ -126,7 +126,7 @@ h1{
     padding: 1em;
 }
 
-.card{
+#shopping .card, #testimonials .card, #services .card{
     background-color: #FFEBE5;
 }
 
@@ -172,11 +172,11 @@ h1{
 /* Testimonials */
 #testimonials{
     width: 100%;
-    height: 1600px;
+    height: 1400px;
     background-color: #fbc2c2;
 }
 
-.test{
+.quotation{
     width: 70px;
     height: 70px;
 }
@@ -191,6 +191,37 @@ h1{
     }
 }
 
+.overlay{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+
+
+
+/* Contact */
+footer{
+    background-color: white;
+}
+
+footer .card{
+    border-top-right-radius: 0;
+    border-top-left-radius: 0;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+    color: #4c292a;
+}
+
+footer h5{
+    font-family: 'DM Sans', sans-serif;
+}
+
+.map{
+    object-fit: fill;
+}
 
 
 /* 
