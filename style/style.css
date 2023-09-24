@@ -6,14 +6,13 @@ body{
 
 /*@media screen and (min-width: 1024px){
     p{
-        font-size: 1.3em;
+        font-size: 1.1em;
     }
     
 }*/
     
 section{
-    margin-top: 3em;
-    margin-bottom: 6em;
+    margin-bottom: 8em;
 }
 
 section p{
@@ -102,9 +101,12 @@ h1{
     color: #4c292a !important;
 }
 
+#services{
+    margin-top: 7em;
+}
+
 .services-intro{
-    margin-top: 5em;
-    margin-bottom: 6em;
+    margin-bottom: 8em;
 }
 
 .service-item img, .product-item img{
@@ -201,7 +203,6 @@ h1{
     left: 50%;
     transform: translate(-50%, -50%);
 }
-
 
 
 
