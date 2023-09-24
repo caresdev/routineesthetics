@@ -2,7 +2,7 @@
 
 ## Introduction
 
-Welcome to the frontend project for Routine Esthetics.
+Welcome to the waxing service platform created for Routine Esthetics LLC. 
 
 ## Table of Contents
 
@@ -15,7 +15,7 @@ Welcome to the frontend project for Routine Esthetics.
 
 ## Project Overview
 
-This frontend project is a website created by Gleici Pereira for the esthetician Emily Hernandez's waxing business. This project encapsulates the entire process, from inception to deployment, showcasing the frontend developer's multifaceted skills and commitment to delivering an exceptional user experience. 
+This front-end project is a platform created by Gleici Pereira for the esthetician Emily Hernandez. This project encapsulates the entire process, from inception to deployment, showcasing the frontend developer's multifaceted skills and commitment to delivering an exceptional user experience. 
 
 ## Project Highlights
 
@@ -23,7 +23,7 @@ This frontend project is a website created by Gleici Pereira for the esthetician
 
 - **Adobe XD Prototyping:** The project journey began with prototyping in Adobe XD, ensuring a clear and cohesive design vision that seamlessly translates to the final product.
 
-- **Responsive Design:** The webpage follows a mobile-first design approach, incorporating Bootstrap 5, responsive web design best practices, and meticulous media queries implementation. This guarantees an optimal user experience across various devices and screen sizes.
+- **Responsive Design:** The webpage follows a mobile-first design approach, incorporating Bootstrap5, responsive web design best practices, and meticulous media queries implementation. This guarantees an optimal user experience across various devices and screen sizes.
 
 - **Text Animations:** Gleici leveraged JavaScript to create captivating text animations for section titles, including the hero section heading. These animations elevate the visual appeal and engage visitors with subtle yet impactful effects.
 
