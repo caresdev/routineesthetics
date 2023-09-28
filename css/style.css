@@ -24,7 +24,7 @@ section h2, footer h5, section h4, section h5, section h6, .service-details, #se
 }
 
 
-section h2, section h5, section h6, #services h1{
+section h2, section h5, section h6, #services h1, #about h4{
     font-family: 'Poppins', sans-serif;
 }
 
