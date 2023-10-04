@@ -14,8 +14,10 @@ navLinks.forEach((link) => {
 
 
 // Navbar closing button
+// Use hidden attribute to closing button html tag , remove attribute with removeAttribute() function
+// Add hidden attribute to hamburger button html tage, 
 const navbarToggler = document.querySelector(".navbar-toggler");
-const closingButton = document.getElementById("closing-button");
+const closingButton = document.getElementsByClassName("closing-button");
 const navbarTogglerIcon = document.getElementById("navbar-toggler-icon");
 
 navbarToggler.addEventListener("click", () => {
